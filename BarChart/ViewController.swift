@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var basicBarChart: BasicBarChart!
-    @IBOutlet weak var barChart: BeautifulBarChart!
+    //@IBOutlet weak var barChart: BeautifulBarChart!
     
     private let numEntry = 20
     
@@ -22,11 +22,11 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         let dataEntries = generateEmptyDataEntries()
         basicBarChart.updateDataEntries(dataEntries: dataEntries, animated: false)
-        barChart.updateDataEntries(dataEntries: dataEntries, animated: false)
+        //barChart.updateDataEntries(dataEntries: dataEntries, animated: false)
         
         let timer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: true) {[unowned self] (timer) in
             let dataEntries = self.generateRandomDataEntries()
-            self.barChart.updateDataEntries(dataEntries: dataEntries, animated: true)
+            //self.barChart.updateDataEntries(dataEntries: dataEntries, animated: true)
             self.basicBarChart.updateDataEntries(dataEntries: dataEntries, animated: true)
         }
         timer.fire()

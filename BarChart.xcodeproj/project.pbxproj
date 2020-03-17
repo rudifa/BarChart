@@ -13,9 +13,6 @@
 		D798ECA922957871001276C0 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E5388A1F483C4400D14995 /* BasicBarChart.swift */; };
 		D798ECAA22957871001276C0 /* BasicBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EC9F2294F9C4001276C0 /* BasicBarChartPresenter.swift */; };
 		D798ECAB22957871001276C0 /* BasicBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798ECA322950127001276C0 /* BasicBarEntry.swift */; };
-		D798ECAC2295788F001276C0 /* BeautifulBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EC982293F5FA001276C0 /* BeautifulBarChartPresenter.swift */; };
-		D798ECAD2295788F001276C0 /* BeautifulBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E538861F483BBF00D14995 /* BeautifulBarChart.swift */; };
-		D798ECAE2295788F001276C0 /* BeautifulBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798ECA1229500CB001276C0 /* BeautifulBarEntry.swift */; };
 		D7C514DE22A404B40016347F /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C514DD22A404B40016347F /* ArrayExtension.swift */; };
 		D7E538751F483B5D00D14995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E538741F483B5D00D14995 /* AppDelegate.swift */; };
 		D7E538771F483B5D00D14995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E538761F483B5D00D14995 /* ViewController.swift */; };
@@ -202,17 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D798ECAC2295788F001276C0 /* BeautifulBarChartPresenter.swift in Sources */,
 				D7E538891F483BF100D14995 /* DataEntry.swift in Sources */,
 				D7E538771F483B5D00D14995 /* ViewController.swift in Sources */,
-				D798ECAD2295788F001276C0 /* BeautifulBarChart.swift in Sources */,
 				D798ECA82295781D001276C0 /* CustomSegments.swift in Sources */,
 				D798ECAA22957871001276C0 /* BasicBarChartPresenter.swift in Sources */,
 				D7E538751F483B5D00D14995 /* AppDelegate.swift in Sources */,
 				D798ECAB22957871001276C0 /* BasicBarEntry.swift in Sources */,
 				D798EC9C229404BF001276C0 /* UIBezierPathExtension.swift in Sources */,
 				D798ECA922957871001276C0 /* BasicBarChart.swift in Sources */,
-				D798ECAE2295788F001276C0 /* BeautifulBarEntry.swift in Sources */,
 				D798EC9E229404E6001276C0 /* CALayerExtension.swift in Sources */,
 				D7C514DE22A404B40016347F /* ArrayExtension.swift in Sources */,
 			);
