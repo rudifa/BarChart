@@ -23,11 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D798EC982293F5FA001276C0 /* BeautifulBarChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulBarChartPresenter.swift; sourceTree = "<group>"; };
 		D798EC9B229404BF001276C0 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
 		D798EC9D229404E6001276C0 /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 		D798EC9F2294F9C4001276C0 /* BasicBarChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicBarChartPresenter.swift; sourceTree = "<group>"; };
-		D798ECA1229500CB001276C0 /* BeautifulBarEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulBarEntry.swift; sourceTree = "<group>"; };
 		D798ECA322950127001276C0 /* BasicBarEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicBarEntry.swift; sourceTree = "<group>"; };
 		D798ECA72295781D001276C0 /* CustomSegments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegments.swift; sourceTree = "<group>"; };
 		D7C514DD22A404B40016347F /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
@@ -38,7 +36,6 @@
 		D7E5387B1F483B5D00D14995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7E5387E1F483B5D00D14995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E538801F483B5D00D14995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7E538861F483BBF00D14995 /* BeautifulBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChart.swift; sourceTree = "<group>"; };
 		D7E538881F483BF100D14995 /* DataEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
 		D7E5388A1F483C4400D14995 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,16 +73,6 @@
 			name = BasicBarChart;
 			sourceTree = "<group>";
 		};
-		D798ECA62295774C001276C0 /* BeautifulBarChart */ = {
-			isa = PBXGroup;
-			children = (
-				D7E538861F483BBF00D14995 /* BeautifulBarChart.swift */,
-				D798EC982293F5FA001276C0 /* BeautifulBarChartPresenter.swift */,
-				D798ECA1229500CB001276C0 /* BeautifulBarEntry.swift */,
-			);
-			name = BeautifulBarChart;
-			sourceTree = "<group>";
-		};
 		D7E538681F483B5D00D14995 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				D798EC9A22940495001276C0 /* Shared */,
-				D798ECA62295774C001276C0 /* BeautifulBarChart */,
 				D798ECA52295772F001276C0 /* BasicBarChart */,
 			);
 			name = BarChart;
